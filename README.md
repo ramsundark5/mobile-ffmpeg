@@ -477,3 +477,5 @@ If you have any recommendations or ideas to improve it, please feel free to subm
 - [FFmpeg Wiki](https://trac.ffmpeg.org/wiki/WikiStart)
 - [FFmpeg License and Legal Considerations](https://ffmpeg.org/legal.html)
 - [FFmpeg External Library Licenses](https://www.ffmpeg.org/doxygen/4.0/md_LICENSE.html)
+
+### Static LIBS
