@@ -353,7 +353,7 @@ ulimit -n 2048 1>>${BASEDIR}/build.log 2>&1
     --enable-jni \
     --enable-optimizations \
     --enable-swscale \
-    --enable-shared \
+    --disable-shared \
     --disable-v4l2-m2m \
     --disable-outdev=v4l2 \
     --disable-outdev=fbdev \
@@ -364,14 +364,13 @@ ulimit -n 2048 1>>${BASEDIR}/build.log 2>&1
     --disable-xmm-clobber-test \
     ${DEBUG_OPTIONS} \
     --disable-neon-clobber-test \
-    --disable-programs \
     --disable-postproc \
     --disable-doc \
     --disable-htmlpages \
     --disable-manpages \
     --disable-podpages \
     --disable-txtpages \
-    --disable-static \
+    --enable-static \
     --disable-sndio \
     --disable-schannel \
     --disable-securetransport \
