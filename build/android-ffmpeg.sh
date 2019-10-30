@@ -351,6 +351,9 @@ ulimit -n 2048 1>>${BASEDIR}/build.log 2>&1
     --enable-cross-compile \
     --enable-pic \
     --enable-jni \
+    --enable-mediacodec \
+    --enable-hwaccel=h264_mediacodec \
+    --enable-hwaccels \
     --enable-optimizations \
     --enable-swscale \
     --disable-shared \
